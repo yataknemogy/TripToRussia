@@ -1,0 +1,1084 @@
+@font-face {
+    font-family: "Inter"; 
+    src: url("fonts/Inter-Regular.ttf");
+}
+
+/* HEADER */
+.container__header{
+    display: flex;
+    max-width: 150%;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 1440px;
+}
+.bigContainer{
+    max-width: 1184px;
+    margin: 0 auto;
+}
+.header__logo{
+    height: 52px;
+}
+.language, .language a{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.818%; /* 23.236px */
+    text-decoration-line: none;
+    color: white;
+    list-style-type: none;
+}
+.header__language{
+    display: flex;
+    gap: 18px;
+}
+/* BODY */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left img{
+    border-radius: 15px;
+}
+body{
+    background: #2A2C2F;
+    margin: 0;
+}
+.zagolovok h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 96.818%; /* 92.945px */
+    margin-bottom: 0px;
+}
+.zagolovok1 h1{
+    font-size: 96px;
+    animation: zagolovok-h1 1.8s forwards;
+}
+.zagolovok h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    font-weight: lighter;
+    animation: zagolovok-h2 1.8s forwards;
+}
+.city-description{
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.image{
+    width: 984px;
+    height: 554.126px;
+    margin: 72px auto;
+}
+.city{
+    display: block;
+    width: 984px;
+    height: 554.126px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    opacity: 0;
+    animation: city-img 1.8s forwards;
+    animation-delay: 1s;
+}
+.card2{
+    height: 620px;
+    width: 984px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 80px;
+}
+.zagolovok2{
+    width: 100%;
+    text-align: left;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 108.92%; /* 58.817px */
+}
+.zagolovok2 h1{
+    width: 683px;
+    font-size: 54px;
+    margin-top: 0px;
+}
+.zagolovok2 h2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.33%; /* 37.759px */
+}
+.zagolovok2 p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 23.72px */
+    width: 70%;
+}
+.intro__list{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 157.33%; /* 20.453px */
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+.card2{
+    width: 984px;
+}
+.intro__span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.33%;
+}
+.zogolovok21{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+.intro__list2{
+    width: 30%;
+}
+.card3{
+    display: flex;
+    width: 1184px;
+    gap: 16px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.card3 img{
+    border-radius: 5px;
+}
+.container_main{
+    height: auto;
+}
+.card4{
+    display: flex;
+    text-align: center;
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.left{
+    width: 492px;
+    text-align: left;
+}
+.left h1{
+    width: 457px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90.767%; /* 65.352px */
+}
+.left4 h1{
+    height: 133px;
+}
+.right{
+    display: block;
+    text-align: left;
+}
+.right4, .right7{
+    padding-top: 115px;
+}
+.url1{
+    color: #AAA;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 20.332px */
+    letter-spacing: 2.4px;
+}
+.park1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 30.498px */
+    text-decoration-line: underline;
+}
+.description{
+    margin-top: 55px;
+}
+.description p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 30.498px */
+}
+.paragraph2{
+    margin-top: 36px;
+}
+.card5, .card6, .card7, .card8{
+    display: flex;
+    text-align: center;
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+.card5 h1{
+    height: 69px;
+}
+.right5{
+    padding-top: 50px;
+}
+.paragraph{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 30.498px */
+}
+.cards{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 40px;
+}
+.paragraph6{
+    width: 480px;
+    height: 168px;
+}
+.right6, .right8{
+    padding-top: 54px;
+}
+.paragraph71{
+    height: 198px;
+}
+/* WORLD COSMOS */
+.zagolovok, .zagolovok-world h1{
+    font-size: 72px;
+    text-align: center;
+}
+.kamchatka{
+    width: 583px;
+    height: 323px;
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imagekamchatka.png') no-repeat center top /cover;
+    border-radius: 5px;
+}
+.observatory{
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imageobservatory.png') no-repeat center top /cover;
+}
+.container__imgs__innter{
+    padding: 40px 30px;
+    text-align: left;
+}
+.imgs__header{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 108.92%; /* 39.211px */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 12px;
+    gap: 10px;
+}
+.times{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108.92%; /* 13.07px */
+    letter-spacing: 3.6px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.imgs__director{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.92%; /* 15.249px */
+}
+.world-cosmos{
+    
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    gap: 30px;
+}
+.kamchatka{
+    position: relative;
+}
+.kamchatka img{
+    border-radius: 5px;
+}
+.imgs__img{
+    padding: 30px 30px;
+}
+/* PHOTOGRAPHY */
+.zogolovok-photo h1{
+    font-size: 72px;
+}
+.zogolovok-photo h2{
+    font-size: 24px;
+}
+.container__celoe{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    height: 360px;
+    margin-top: 72px;
+}
+.container__second{
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imagenovorussia2.png') no-repeat center top /cover;
+    background-repeat: no-repeat;
+    width: 284px;
+    height: 330px;
+    color: white;
+    font-family: Inter;
+    border-radius: 5px;
+}
+.container__second__innter__header{
+    width: 100%;
+}
+.container__second__innter{
+    height: 100%;
+}
+.container__second__innter__par{
+    width: 100%;
+    font-size: 14px;
+}
+.container__second__innter{
+    width: 248px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.container__second__innter__par{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 23.72px */
+}
+.container__second__innter__header{
+    font-size: 25px;
+}
+.container__second2{
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imagearkaul.png') no-repeat center top /cover;
+}
+.container__second3{
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imagecherepovec.png') no-repeat center top /cover;
+}
+.container__second4{
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imagenikola-lenivec.png') no-repeat center top /cover;
+}
+
+/* PEOPLE */
+.zogolovok-people h1{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 90.767%;
+}
+.container__people{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    justify-content: center;
+    margin-top: 72px;
+}
+.container__people__innter__header{
+    color: white;
+    font-family: Inter;
+    font-family: Inter;
+    width: 100%;
+}
+.container__people__innter__par{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 169.432%; /* 23.72px */
+}
+.container__people img{
+    border-radius: 50px;
+}
+.container__people__innter__header2{
+    width: 382px;
+    flex-shrink: 0;
+}
+.container__people__innter__header3{
+    width: 382px;
+    height: 60px;
+    flex-shrink: 0;
+}
+/* TRAIN */
+.container__train{
+    background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 0, 0.5)), url('img/Imagetrain.png') no-repeat center top /cover;
+    background-repeat: no-repeat;
+    width: 1184px;
+    height: 594px;
+    flex-shrink: 0;
+    color: #FFFDFD;
+    font-family: Inter;
+    border-radius: 15px;
+    gap: 100px;
+}
+.container__train__innter__header{
+    margin: 274px auto 16px auto;
+    padding: 0;
+    height: 69px;
+    font-size: 72px;
+    text-align: center;
+}
+.container__train__innter__par{
+    margin: 134px auto 33px auto;
+    font-size: 18px;
+    width: 382px;
+    height: 69px;
+    flex-shrink: 0;
+    font-weight: 400;
+}
+.container__train__innter__par h2{
+    opacity: 10;
+}
+.train{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+/* REGION */
+.region{
+    margin-top: 82px;
+}
+.zogolovok-region h1{
+    width: 443px;
+    height: 131px;
+    flex-shrink: 0;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: left;
+}
+.container__region{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 36px;
+    margin-top: 82px;
+}
+.container__city{
+    max-width: 1184px;
+    margin: 0 auto;
+}
+.container__novgorod__innter__par{
+    width: 208px;
+    height: 49px;
+    color: #CCC;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.92%; /* 26.141px */
+}
+.container__item{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+/* BARENCBURG */
+.barencburg{
+    margin-top: 85px;
+    width: 100%;
+}
+.container__barencburg{
+    max-width: 1184px;
+    margin: 0 auto;
+}
+.barencburg-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 145.227%; /* 60.995px */
+}
+.barencburg-subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.227%; /* 60.995px */
+}
+.barencburg-img{
+    margin-top: 48px;
+    object-fit: cover;
+}
+.barencburg-footer{
+    display: flex;
+    gap: 120px;
+    margin-top: 48px;
+}
+.barencburg-description{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 30.498px */
+    width: 32%;
+}
+.barencburg-paragraph{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%; /* 30.498px */
+    text-decoration-line: underline;
+    width: 58%;
+}
+/* FOOTER */
+footer{
+    margin-top: 160px;
+    margin-bottom: 48px;
+}
+.container__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__navigation{
+    display: flex;
+}
+.footer__information{
+    display: flex;
+    gap: 18px;
+    padding-left: 0px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+.information{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.227%; /* 20.332px */
+    text-decoration-line: none;
+    color: white;
+    list-style-type: none;
+}
+.footer__name{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.227%; /* 20.332px */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* ANIMATION */
+.container__second{
+    overflow: hidden;
+    transition: all 300ms;
+}
+.container__second:hover{
+    transform: translateY(-5px);
+}
+.container__train{
+    overflow: hidden;
+    transition: all 300ms;
+}
+.container__train:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.imgs__img img:hover{
+    color: orange;
+}
+.information:after {
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #FFF;
+    content: "";
+    transition: width 0.5s ease-out;
+}
+.information:hover:after,
+.information:focus {
+    width: 100%;
+}
+@keyframes zagolovok-h1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes zagolovok-h2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes city-img {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* MEDIA-SCREEN */
+@media (max-width: 1185px){
+    .bigContainer{
+        max-width: 928px;
+    }
+    .smallContainer{
+        max-width: 928px;
+    }
+    .image, .city{
+        max-width: 928px;
+    }
+    .card3{
+
+        height: 842px;
+    }
+    .card3-content{
+        border-radius: 15px;
+    }
+    .paragraph{
+        width: 456px;
+        height: 184px;
+    }
+    .photography{
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+    .container__photography{
+        width: 991px;
+    }
+    .container__celoe{
+        gap: 10px;
+    }
+    .container__second__innter{
+        width: 200px;
+        gap: 0px;
+    }
+    .container__people__innter__header{
+        width: 296px;
+    }
+    .container__train{
+        width: 1024px;
+    }
+    .container__train__innter__par{
+        width: 928px;
+    }
+    .train{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .container__train__innter__header{
+        width: 928px;   
+    }
+    .container__train__innter__par{
+        width: 382px;
+        height: 79.596px;
+    }
+    .container__city{
+        width: 945.411px;
+    }
+    .container__item{
+        gap: 29px;
+        width: 165px;
+        height: 286px;
+        flex-shrink: 0;
+    }
+    .container__item img{
+        width: 164.695px;
+        height: 200px;
+    }
+    .container__item h2{
+        width: 165px;
+    }
+    .container__barencburg{
+        max-width: 1024px;
+    }
+    .barencburg-title{
+        margin-left: 48px;
+    }
+    .barencburg-subtitle{
+        margin-left: 48px;
+    }
+    .barencburg-img{
+        max-width: 1024px;
+    }
+    .barencburg-footer{
+        margin-left: 51px;
+    }
+}
+@media (max-width: 1023px){
+    .smallContainer{
+        max-width: 720px;
+    }
+    .container__city{
+        width: 708px;
+    }
+    .zagolovok1 h2{
+        width: 720px;
+    }
+    .city {
+        max-width: 110%;
+        width: 768px;
+        height: 420px;
+    }
+    .image p{
+        margin-top: 16px;
+    }
+    .zagolovok2 p{
+        flex-direction: column-reverse;
+        margin-top: 19px;
+        width: 100%;
+    }
+    .intro__list{
+        width: auto;
+    }
+    .zogolovok21{
+        display: flex;
+        text-align: left;
+        flex-direction: column-reverse;
+    }
+    .card3{
+        margin-top: 120px;
+        width: 720px;
+        height: 1485px;
+    }
+    .card3-content img{
+        width: 352px;
+        height: 234px;
+    }
+    .cards h1{
+        width: 334px;
+        font-size: 42px;
+    }
+    .left img{
+        width: 340px;
+        height: 340px;
+    }
+    .description{
+        width: 352px;
+        font-size: 16px;
+    }
+    .cards{
+        margin-top: 90px;
+    }
+    .left{
+        width: 38%;
+    }
+    .left h1{
+        width: 340px;
+        
+        font-size: 72px;
+    }
+    .photography{
+        display: flex;
+        justify-content: center;
+        padding-top: 46px;
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+    .zogolovok-photo h1{
+        padding-top: 0px;
+    }
+    .left h1{
+        width: 340px;
+    }
+    .world-cosmos{
+        padding-top: 102px;
+    }
+    .zagolovok-world h1{
+        font-size: 42px;
+    }
+    .zagolovok-world h2{
+        font-size: 24px;
+    }
+    .imgs{
+        padding-top: 0px;
+        margin-top: 56px;
+    }
+    .imgs{
+        width: auto;
+        gap: 16px;
+    }
+    .container__celoe{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 960px;
+        width: 100%;
+        height: auto;
+    }
+    .container__photography{
+        max-width: 584px;
+    }
+    .container__second{
+        padding: 30px 16px;
+        box-sizing: border-box;
+    }
+    .container__second__innter{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 248px;
+        width: 100%;
+        min-height: 330px;
+        height: 100%;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .container__photography{
+        max-width: 584px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paragraph{
+        width: 352px;
+        font-size: 16px;
+    }
+    .description p{
+        font-size: 16px;
+    }
+    .paragraph7{
+        height: 120px;
+    }
+    .container__people{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container__first img{
+        display: block;
+        margin: 0 auto;
+    }
+    .container__people__innter{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 0px;
+    }
+    .container__people__innter__header{
+        text-align: left;
+    }
+    .container__first3{
+        margin-top: 47px;
+    }
+    .container__city{
+        margin: 0 auto;
+    }
+
+    .container__region{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 68px;
+    }
+    .container__item{
+        width: 190px;
+    }
+    .container__item img{
+        width: 190px;
+        height: 226px;
+    }
+}
+@media (max-width:768px){
+    .bigContainer{
+        
+    }
+    .container__header{
+        max-width: 700px;
+    }
+    .city{
+        max-width: 100%;
+        width: 768px;
+    }
+    .city img{
+        max-width: 100%;
+        width: 768px;
+    }
+    .card{
+        padding-top: 48px;
+    }
+    .imgs__img{
+        padding: 24px 24px;
+        width: 41px;
+        height: 41px;
+        padding-top: 0px;
+    }
+    .kamchatka, .observatory{
+        max-width: 100%;
+        width: 352px;
+        height: 200px;
+    }
+    .container__imgs__innter{
+        padding: 30px;
+        padding-top: 20px;
+        max-width: 100%;
+        width: 288px;
+    }
+    .container__imgs__innter2{
+        width: 322px;
+        padding-bottom: 0px;
+    }
+    .imgs__header{
+        font-size: 24px;
+    }
+    .imgs__director{
+        font-size: 14px;
+    }
+    .zagolovok1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .zagolovok1 h1{
+        font-size: 96px;
+    }
+    .zagolovok1 h2{
+        font-size: 38px;
+        width: 70%;
+    }
+    .zagolovok2 h1{
+        font-size: 32px;
+        width: 70%;
+    }
+    .zagolovok2 h2{
+        margin-top: 23px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card3{
+        flex-direction: unset;
+        justify-content: center;
+    }
+    .container__train{
+        max-width: 100%;
+    }
+    .container__train__innter__header{
+        width: 768px;
+    }
+    .barencburg img{
+        max-width: 100%;
+    }
+    .container__footer{
+        max-width: 100%;
+    }
+    .footer__information{
+        padding-left: 40px;
+    }
+    .information{
+        font-size: 16px;
+    }
+    .container__footer{
+        justify-content: unset;
+        gap: 100px;
+    }
+}
+@media (max-width: 435px){
+    .bigContainer{
+        max-width: 375px;
+    }
+    .smallContainer{
+        max-width: 343px;
+    }
+    .container__footer{
+        text-align: left;
+    }
+    .footer__information{
+        flex-direction: column;
+        max-width: 100%;
+        text-align: left;
+    }
+    .footer__name{
+        width: auto;
+    }
+    .information{
+        font-size: 24px;
+        text-align: left;
+    }
+    .zagolovok1 h1{
+        width: 300px;
+        font-size: 40px;
+    }
+    .zagolovok1 h2{
+        width: 343px;
+        font-size: 16px;
+    }
+    .city{
+        max-width: 100%;
+        height: 211px;
+    }
+    .cards{
+        
+    }
+}
