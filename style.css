@@ -271,7 +271,6 @@ body{
 }
 .cards{
     text-align: center;
-    width: 100%;
     margin: 0 auto;
     gap: 40px;
 }
